@@ -1,0 +1,16 @@
+{
+  "name": "xray_junit_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "runtests": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.3",
+    "cypress-xray-junit-reporter": "^1.1.4"
+  }
+}
