@@ -1,7 +1,7 @@
 /// <reference types = "cypress"/>
 
 describe("test", () => {
-    it("testcase", { jiraKey: 'QAA-3897' }, () => {
+    it("testcase", { jiraKey: 'efg' }, () => {
         expect(2).to.be.greaterThan(4);
     })
 })
